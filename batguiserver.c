@@ -98,7 +98,7 @@ void usage(void)
 int main(int argc, char *argv[])
 {
     uint16_t background = 0x0;
-    int32_t layer = 3000;
+    int32_t layer = 20000; //3000; not display in ES
     uint32_t displayNumber = 0;
     int32_t xOffset = 0;
     int32_t yOffset = 0;
